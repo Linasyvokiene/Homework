@@ -1,0 +1,115 @@
+.content-wrapper{
+	width: 750px;
+	margin: 0 auto;
+	font-family: 'PT Serif', serif;
+}
+
+.header-wrapper{
+	background-color: gray;
+}
+
+header{
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 50px;
+}
+
+header img{
+	width: auto;
+	height: 20px;
+	margin: 15px;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	display: inline;
+	list-style: none;
+	margin-left: 10px;
+}
+
+
+nav a{
+	font-size: 0.7em;
+	color: #ffff;
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+/* Main section */
+
+.a{
+	min-height: 400px;
+	background-color: #EAEAEA;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+	padding-top: 250px;
+}
+
+span.black{
+	background-color: black;
+	color: white;
+	font-size: 0.7em;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+
+/* Another option for button */
+/* button{
+	background-color: black;
+	color: white;
+	padding: 5px;
+	margin-top: 30px;
+	font-size: 0.7em;
+	text-decoration: underline;
+} */
+
+.b{
+	min-height: 400px;
+	padding: 50px 0px 50px 0px;
+}
+
+.b h2{
+	text-align: right;
+	padding-right: 100px;
+}
+
+.b p{
+	text-align: justify;
+	padding: 0px 100px 0px 100px;
+}
+
+.c{
+	min-height: 400px;
+	padding: 50px 0px 50px 100px;
+	background-color:#f0f8ff;
+	margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+
+/* End of main section */
+
+
+footer{
+	height: 50px;
+	background-color: gray;	
+}
+
+footer p{
+	text-align: center;	
+	font-size: 0.7em;
+	color: #ffff;
+	font-style: italic;
+	padding: 20px;
+}
